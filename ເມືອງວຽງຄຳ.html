@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="bootstrap5/icon/font/bootstrap-icons.min.css">
+    <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+    
+      body{
+       margin: 20px;
+     }
+     
+     img{
+       border: 5px solid white;
+     }
+   a{
+     text-decoration: none;   /*ບໍ່ໃຫ້ມີເສັ້ນຂີດກ້ອງຕົວໜັງສື */
+     color: rgb(255, 255, 255);  /*ຕົວໜັງສືສີຂາວ*/
+     transition: 0.25s ease;  /*ກຳນົດເວລາໃຫ້ປ່ຽນສີຕ່າງໆ*/
+     align-items: center;     /*ຈັດໃຫ້ຢູ່ກາງ*/
+   }
+
+
+   ul li{
+   text-decoration: none;   /*ບໍ່ໃຫ້ມີເສັ້ນຂີດກ້ອງຕົວໜັງສື */
+   margin: 0 0.75em 0 0.75em; /*ໄລຍະຫ່າງຂອງຕົວໜັງສື*/
+   }
+   ul:hover a{
+     color: #57575745;  /*ໃຊ້ເພື່ອເວລາເອົາເມົ້າໄປຈີ້ໃສ່ໃນບ໋ອກແລ້ວໜັງສືປ່ຽນສີ*/
+   }
+   ul:hover a:hover{
+     color: #0c35af;   /*ໃຊ້ເພື່ອເວລາເອົາເມົ້າໄປຈີ້ໃສ່ຕົວໜັງສືແລ້ວປ່ຽນສີ*/
+     box-shadow: 0 2px 0 0 currentColor; /*ເພື່ອໃຫ້ມີເສັ້ນກ້ອງຕົວໜັງສືທີ່ເປັນສີດຽວກັນ*/
+   }
+   
+ </style>
+</head>
+<body style="font-family: phetsarath OT;background-image: url(kk/mm.jpg);">
+ <div class="container-fluid">
+   <nav class="navbar navbar-expand-lg navbar-dark  mb-3" style="      display: flex;
+   list-style: none;  
+   padding: 1rem;     
+   backdrop-filter: blur(10px);
+   border: 1px solid rgba(255, 255, 255, 0.5); 
+   border-radius: 30px;     
+   box-shadow: 0 6px 6px rgba(0,0,0,0.5); 
+ ">
+       <div class="container-fluid">
+       <a class="navbar-brand"> ແຂວງ ວຽງຈັນ</a>
+
+         <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target=
+         "#navbarNavDropdown" aria-controls="navbarNavDropdown" ariav -expanded="false" aria-label=
+         "Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+               <li><a  href="index.html"><i class="bi bi-house-fill"></i>&nbsp;<b>ໜ້າຫຼັກ</b></a></li> 
+               
+               <li>
+                 <a href="ປະຫວັດ.html"><b>ປະຫວັດ</b></a>
+               </li>
+               
+               <li>
+                 <a  href="ທີ່ຕັ້ງ.html"><b>ທີ່ຕັ້ງຊາຍແດນ</b></a>
+               </li>
+               
+               
+               <li>
+                 <a href="ພູມສາດ.html"><b>ພູມອາກາດ</b></a>
+               </li>
+               
+               
+               <li>
+                 <a  href="ປະຊາກອນ.html"><b>ປະຊາກອນ</b></a>
+               </li>
+               
+ 
+               <li class="nav-item dropdown">
+                 <a class=" dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                   <b> ບັນດາເມືອງຕ່າງໆ</b>
+                 </a>
+                 <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                   <li><a class="dropdown-item" href="ເມືອງໂພນໂຮງ.html">ເມືອງ ໂພນໂຮງ</a></li>
+                   <li><a class="dropdown-item" href="ເມືອງເຟືອງ.html">ເມືອງ ເຟືອງ</a></li>
+                   <li><a class="dropdown-item" href="ເມືອງຫີນຫີບ.html">ເມືອງ ຫີນເຫີບ</a></li>
+                   <li><a class="dropdown-item" href="ເມືອງກາສີ.html">ເມືອງ ກາສີ</a></li>
+                   <li><a class="dropdown-item" href="ເມືອງແກ້ວອຸດົມ.html">ເມືອງ ແກ້ວອຸດົມ</a></li>
+                   <li><a class="dropdown-item" href="ເມືອງແມດ.html">ເມືອງ ແມດ</a></li>
+                   <li><a class="dropdown-item" href="ເມືອງໝື່ນ.html">ເມືອງ ໝື່ນ</a></li>
+                   <li><a class="dropdown-item" href="ເມືອງທຸລະຄົມ.html">ເມືອງ ທຸລະຄົມ</a></li>
+                   <li><a class="dropdown-item" href="ເມືອງວຽງຄຳ.html">ເມືອງ ວຽງຄຳ</a></li>
+                   <li><a class="dropdown-item" href="ເມືອງວັງວຽງ.html">ເມືອງ ວັງວຽງ</a></li>
+                   <li><a class="dropdown-item" href="ເມືອງຊະນະຄາມ.html">ເມືອງ ຊະນະຄາມ</a></li>
+                 </ul>
+               </li>
+ 
+               <li>
+                 <a href="ສະຖານທີ່ທ້ອງທ່ຽວ.html"><b>ສະຖານທີ່ທ່ອງທ່ຽວ</b></a>
+               </li>
+             </ul>
+   
+         
+         </div>
+       </div>
+     </nav>
+     </div>
+  <div class="row">
+    <div class="col-lg-6">
+        <h1><b>ເມືອງ ວຽງຄຳ</b></h1><hr>
+
+    <h5 class="text-dark bg-secondary"><b>1. ທີ່ມາຂອງຊື່ເມືອງວຽງຄຳ.</b></h5>
+
+ <p class="text-white bg-secondary"><th>&nbsp;&nbsp;</th> <th>&nbsp;&nbsp;</th>ຄຳວ່າເມືອງວຽງຄຳນີ້ມາຈາກຄຳສັບສອງຄຳໃນພາສາລາວຄື: ຄຳວ່າ“ ວຽງ” ແລະຄຳວ່າ “ຄຳ” ເມື່ອເອົາມາປະສົມກັນແລ້ວຈຶ່ງໄດ້ຄຳວ່າ:  “ວຽງຄຳ” ສ່ວນຄຳວ່າ “ວຽງ” ໃນພາສາລາວເດີມມີຄວາມໝາຍວ່າ “ເມືອງ” ເຊຶ່ງແປວ່າສະຖານທີ່ເປັນສູນກາງທາງດ້ານເສດຖະກິດ, ການເມືອງການປົກຄອງແລະສູນກາງທາງດ້ານວັດທະນະທຳ, ສ່ວນຄຳວ່າ “ຄຳ” ຕາມວັດຈະນານຸກົມພາສາລາວມີຄວາມໝາຍວ່າ: ແຮ່ທາດຊະນິດໜຶ່ງທີ່ມີລາຄາແພງແລະເປັນວັດຖຸຊະນິດໜຶ່ງທີ່ມີຄ່າຫຼືວ່າປະເສີດ, ດັ່ງນັ້ນເມືອງວຽງຄຳຈຶ່ງແປວ່າຂອບເຂດດິນແດນທີ່ອຸດົມສົມບູນໄປດ້ວຍສິ່ງຂອງຫຼືວັດຖຸທີ່ມີຄ່າເຊິ່ງລວມໄປເຖິງຄວາມຮັກຄວາມແພງຄວາມເປັນມິດໄມຕີອັນເປັນເອກະລັກທາງດ້ານອຸປະນິໄສຂອງຊາວເມືອງວຽງຄຳອີກດ້ວຍ.
+   </p>
+
+    <hr>
+<h5 class="text-dark bg-secondary"><b> 2. ເມືອງວຽງຄຳໃນອະດີດ.</b></h5>
+<p class="text-white bg-secondary">
+<th>&nbsp;&nbsp;</th> <th>&nbsp;&nbsp;</th>  <b>ກ.</b>ໄລຍະທີ 1:  ເມືອງວຽງຄຳປະກົດຊື່ທຳອິດໃນສະຕະວັດທີ VI ເຊິ່ງເວລານັ້ນເມືອງວຽງຄຳໄດ້ນອນຢູ່ໃນ 17 ຕົວເມືອງທີ່ຂື້ນກັບອານາຈັກສີໂຄດຕະບອງພ້ອມກັບເມືອງວຽງຈັນ.<br>
+
+<th>&nbsp;&nbsp;</th> <th>&nbsp;&nbsp;</th>   <b>ຂ.</b>ໄລຍະທີ 2:ເມືອງວຽງຄຳປະກົດຂື້ນໃນຄັ້ງທີສອງຈາກຕຳນານເອກະສານຕ່າງໆດັ່ງທີ່ມະຫາສີລາວິລະວົງໄດ້ຂຽນໄວ້ໃນປື້ມວົງສາວະດານລາວ ( 1973 ) ເຊິ່ງມີເນື້ອໃນກ່າວເຖິງເມືອງວຽງຄຳ ຄວາມຈິງແລ້ວນາມວ່າເມືອງວຽງຄຳນີ້ມີມາກ່ອນສະໄໝການປົກຄອງຂອງເຈົ້າຟ້າງຸ່ມແລ້ວດັ່ງປະກົດຢູ່ໃນສີລາເລກຂອງຂຸນຣາມກຳແຫງເມືອງສຸໂຂໄທເຊິ່ງຈາລຶກໄວ້ແຕ່ປີຄ.ສ 1285 ຄືກ່ອນເຈົ້າຟ້າງຸ່ມຈະມາຕີເອົາເມືອງວຽງຄຳເຖິງ 37 ປີ, ເຂດແດນສຸໂຂໄທເວລານັ້ນທິດຕາເວັນອອກເຖິງເມືອງສາຣະຫຼວງເມືອງສະຣະຄາກະທັ້ງຝັ່ງແມ່ນ້ຳຂອງເຖິງວຽງຈັນວຽງຄຳເປັນທີ່ແລ້ວດັ່ງນີ້ແລະຕຳນານຂຸນບູລົມກໍ່ເອີ້ນວ່າເມືອງວຽງຄຳແຕ່ໃດມາ.<br>
+
+<th>&nbsp;&nbsp;</th> <th>&nbsp;&nbsp;</th>   <b>ຄ.</b>ໄລຍະທີ 3:ປະກົດຊື່ເມືອງວຽງຄຳໃນສະຕະວັດທີ XIV ເວລາເຈົ້າຟ້າງຸ່ມຍົກທັບມາຕີເອົາວຽງຈັນແລະວຽງຄຳໃນປີຄ.ສ 1356 ເຊິ່ງເວລານັ້ນຜູ້ປົກຄອງເມືອງວຽງຄຳມີຊື່ວ່າ: ພະຍາເພົາ.<br>
+
+<th>&nbsp;&nbsp;</th> <th>&nbsp;&nbsp;</th>   <b>ງ.</b>ໄລຍະທີ 4:ໄດ້ມີການກ່າວເຖິງເມືອງວຽງຄຳໃນສະຕະວັດທີ XVIIIເຊິ່ງປະຫວັດສາດພົງສາວະດານລາວໄທ-ລ້ານຊ້າງ (ຂອງໄທ) ໄດ້ກ່າວວ່າ: ໃນປີພ.ສ 2321 ຄ.ສ 1778 ໄດ້ເກີດສົງຄາມຂື້ນລະຫວ່າງກຸງທົນບູລີເຊິ່ງເປັນນະຄອນຫຼວງຂອງໄທໃນເວລານັ້ນກັບກຸງສີລັດຕະນາຄະນະຫູດນະຄອນຫຼວງລ້ານຊ້າງວຽງຈັນ, ພະເຈົ້າທຳມະເທວົງຈຶ່ງນຳເອົາພະໃສເຊິ່ງເປັນພະພຸດທະຮູບທີ່ພະເຈົ້າໄຊເສດຖາທິລາດຫຼໍ່ໄວ້ໃນປີຄ.ສ 1566 ໄປໄວ້ທີ່ເມືອງຊຽງຄຳ (ເມືອງຕຸລາຄົມ) ດ້ວຍເຫດນັ້ນຄຳວ່າເມືອງຊຽງຄຳທີ່ຢູ່ໃນເຂດເມືອງຕຸລາຄົມນັ້ນກໍ່ຄື: ເມືອງວຽງຄຳນັ້ນເອງ.<br>
+</p>
+
+<hr>
+
+<h5 class="text-dark bg-secondary"><b>3. ເມືອງວຽງຄຳໃນປັດຈຸບັນ.</b></h5>
+<p class="text-white bg-secondary">
+<th>&nbsp;&nbsp;</th> <th>&nbsp;&nbsp;</th>ເມືອງວຽງຄຳໄດ້ສ້າງຕັ້ງຂື້ນມາໃໝ່ອີກໃນວັນທີ  14/8/1977 ເຊິ່ງແຍກເອົາບັນດາບ້ານຕ່າງໆອອກຈາກ 3 ຕົວເມືອງຄື:ເມືອງໂພນໂຮງ, ເມືອງແກ້ວອຸດົມເມືອງທຸລະຄົມ, ປະຈຸບັນມີເນື້ອທີ່ທັງໝົດ 124 Km2 ມີ 17 ບ້ານ, ແບ່ງອອກເປັນ 3 ກຸ່ມບ້ານຄື: ກຸ່ມບ້ານໂພນໝີ, ກຸ່ມບ້ານເມືອງເກົ່າ, ກຸ່ມບ້ານດອນກວດ, ມີ 249 ໜ່ວຍສາມະຄີ, ມີ 384 ຄອບຄົວ, ມີຜົນລະເມືອງທັງໝົດ 19.047 ຄົນ, ຍິງ 9.661 ຄົນ, ໃນນັ້ນຊົນເຜົ່າລາວລຸ່ມມີ 18.774 ຄົນ, ຍິງ 9.548 ຄົນ, ຊົນເຜົ່າກຶມມຸ 128 ຄົນ, ຍິງ 42 ຄົນ, ຊົນເຜົ່າມົ້ງ 145 ຄົນ, ຍິງ 71 ຄົນ, ປະຊາຊົນມີມູນເຊື້ອດຸໝັ້ນໃນການອອກແຮງງານ, ມີຄວາມສາມັກຄີຊ່ວຍເຫຼຶອເຊິ່ງກັນແລະກັນ, ນັບຖືວັດທະນະທຳອັນດີງາມຂອງຊາດແລະທ້ອງຖິ່ນ, ມີເອກະລັກສະເພາະດ້ານສິລະປະເປັນຕົ້ນແມ່ນສຽງແຄນຂັບງື່ມ, ການຟ້ອນລາຍງ້າວບ້ານປາກກະຍຸງ, ເມືອງວຽງຄຳເປັນເມືອງທີ່ມີເນື້ອທີ່ຮາບພຽງ, ມີສາຍນ້ຳງື່ມໄຫຼຜ່ານ, ມີນ້ຳແຈ້ງແລະໜອງທຳມະຊາດທັງໝົດນັ້ນເປັນເງື່ອໄຂເອື້ອອຳນວຍຄວາມສະດວກໃຫ້ແກ່ປະຊາຊົນທຳມາຫາກິນ, ການຜະລິດປູກຝັງລ້ຽງສັດແລະການພັດທະນາການທ່ອງທ່ຽວ.
+</p>
+
+
+
+    </div>
+
+ </div>
+  
+ 
+</body>
